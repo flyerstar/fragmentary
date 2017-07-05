@@ -191,6 +191,6 @@ public class ImageUtil {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		ImageUtil.watermarkText("f:/1.jpg", "你好", Font.SANS_SERIF, Font.BOLD, Color.gray, 120, -1, 0, 0.7f, "f:/11.jpg");
+		ImageUtil.scaleImage("f:/11.jpg", 0.5, 0.5, "f:/12.jpg");
 	}
 }
